@@ -16,18 +16,16 @@ public class User {
         this.password = password;
     }
 
-    public boolean verifyPassword(String password){
-        if (this.password.equals(password)){
-            return true;
-        } else {
-            return false;
-        }
-    }
+    public boolean verifyPassword(String verificationPassword){
+        return verificationPassword.equals(password);
+             }
 
-    public String toString(){
-        return "Login " + verifyPassword(password);
+
+
+    //public String toString(){
+   //     return verifyPassword(String ver);
 
     }
 
 
-}
+
