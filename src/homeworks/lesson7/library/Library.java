@@ -3,7 +3,7 @@ package homeworks.lesson7.library;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Library {
+/*public class Library {
     private List<Book> books;
 
     public Library() {
@@ -25,10 +25,15 @@ public class Library {
     public Book findByAuthor(String bookAuthor){
         for (int i = 0; i < books.size(); i++) {
             Book book = books.get(i);
-            if (book.getBookAuthor().equals(bookAuthor)){
+            if (book.getBookAuthor().equals(author)){
                 return book;
+
             }
         }
-        return null;
+
+        return null ;
     }
+
+
 }
+*/
