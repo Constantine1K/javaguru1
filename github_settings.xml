@@ -1,7 +1,6 @@
 <application>
   <component name="GithubSettings">
-    <option name="LOGIN" value="k.kvasovs@gmail.com" />
-    <option name="HOST" value="https://github.com/Constantine1K/javaguru1.git" />
+    <option name="LOGIN" value="Constantine1K" />
     <option name="AUTH_TYPE" value="BASIC" />
   </component>
 </application>
